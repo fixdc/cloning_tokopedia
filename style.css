@@ -1,0 +1,250 @@
+body{
+    font-family: "Nunito", sans-serif;
+}
+
+.container {
+    margin-left: 155px;
+    margin-right: 155px;
+}
+
+.header {
+    align-items: center;
+    color: black;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.header1 img {
+    width: 200px;
+}
+
+.header2     {
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+}
+
+.header2below {
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    gap: 20px;
+}
+
+.header input{
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-right: 10px;
+}
+
+.header p {
+    font-size: 15px;
+    margin: 0;
+    padding-right: 20px;
+    font-weight: 600;
+}
+
+.header i {
+    padding-left: 40px;
+    padding-right: 30px;
+}
+
+.vl {
+    border-left: 2px solid #ccc;
+    height: 20px;
+    margin: 0 20px;
+    border-radius: 5px;
+}
+
+.form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.login {
+    background-color:white;
+    border: 1px solid #4CAF50;
+    padding: 10px 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #4CAF50;
+    font-size: 12px;
+    font-weight: bold;
+    
+
+}
+.register {
+    background-color:#4CAF50;
+    border: 1px solid #4CAF50;
+    padding: 10px 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    border-radius: 40px;
+    margin-top: 20px;
+    margin-left: 155px;
+    margin-right: 155px;
+}
+
+.banner img {
+    border-radius: 10px;
+}
+
+.hero1{
+    display: flex;
+    justify-content: space-between; /* Membagi ruang antara kategori dan top-up */
+    align-items: flex-start;
+    gap: 20px;
+    padding: 20px;
+    margin: 20px 85px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.herosection0, .hero2 {
+    flex: 1; /* Membagi ruang secara proporsional */
+}
+
+.herosection0 h1, .hero2 h1 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.herosection1 {
+    display: flex;
+    gap: 20px; /* Jarak antar kategori */
+    flex-wrap: wrap; /* Membungkus elemen jika layar kecil */
+}
+
+.content1 { 
+    width: 120px; /* Sesuaikan ukuran kotak kategori */
+    height: auto;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    background-color: #f9f9f9;
+    text-align: center;
+    margin: 5px; /* Jarak antar elemen */
+}
+
+.content1 img {
+    width: 80px; /* Ukuran gambar */
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.content1 p {
+    font-size: 14px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.section2{
+    display: flex;
+    gap: 20px;
+}
+
+.product-section {
+    margin: 20px 85px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.product-section h1 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.product-section .lihat-semua {
+    font-size: 14px;
+    color: #4CAF50;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.product-list {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.product-item {
+    width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.product-item img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.product-title {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.product-price {
+    font-size: 16px;
+    color: #000;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.product-price .discount {
+    font-size: 12px;
+    color: #888;
+    text-decoration: line-through;
+    margin-left: 5px;
+}
+
+.product-location {
+    font-size: 12px;
+    color: #555;
+    margin-bottom: 5px;
+}
+
+.product-rating {
+    font-size: 12px;
+    color: #555;
+}
