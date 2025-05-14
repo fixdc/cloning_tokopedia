@@ -1,111 +1,610 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>TOKOLUPADIA</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-</head>
-<body>
+    <link rel="icon" href="img/logoatas.png" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
     <div class="container">
-    <div class="header">
+      <div class="header">
         <div class="header1">
-            <img src="tokolupadia (1080 x 500 piksel) (1).png" alt="" width="15%">
-            <p>Kategori</p>
+          <img
+            src="img/logo.png"
+            alt=""
+            width="15%"
+          />
+          <p>Kategori</p>
         </div>
         <div class="header2">
-            <input type="text" placeholder="Cari di Tokolupadia" class="search-bar">
+          <input
+            type="text"
+            placeholder="Cari di Tokolupadia"
+            class="search-bar"
+          />
         </div>
-        <i class="fa-solid fa-cart-arrow-down" style="color: black;"></i>
+        <i class="fa-solid fa-cart-arrow-down" style="color: black"></i>
         <div class="vl"></div>
         <div class="form">
-        <a class="login" href="#">Masuk</a>
-        <a href="#" class="register">Daftar</a>
+          <a class="login" href="#">Masuk</a>
+          <a href="#" class="register">Daftar</a>
         </div>
-    </div>
+      </div>
 
-    <div class="banner">
-        <img src="banner.jpg" alt="">
-    </div>
+      <div class="carousel">
+        <div class="carousel-track">
+          <img src="img/banner.jpeg" class="slide" alt="Promo 1" />
+          <img src="img/banner2.jpeg" class="slide" alt="Promo 2" />
+          <img src="img/banner3.jpeg" class="slide" alt="Promo 3" />
+        </div>
+      </div>
 
-    <div class="hero1">
+      <div class="hero1">
         <div class="herosection0">
-            <h1>Kategori Pilihan</h1>
-            <div class="herosection1">
-                <div class="content1">
-                    <img src="istockphoto-157318026-612x612.jpg" alt="Makanan Kering">
-                    <p>Makanan Kering</p>
-                </div>
-                <div class="content1">
-                    <img src="istockphoto-157318026-612x612.jpg" alt="Figure">
-                    <p>Figure</p>
-                </div>
-                <div class="content1">
-                    <img src="istockphoto-157318026-612x612.jpg" alt="Tas Selempang Pria">
-                    <p>Tas Selempang Pria</p>
-                </div>
+          <h1>Kategori Pilihan</h1>
+          <div class="herosection1">
+            <div class="content1">
+              <img src="img/maker.png" alt="Makanan Kering" />
             </div>
+            <div class="content1">
+              <img src="img/hardisk.png" alt="Figure" />
+            </div>
+            <div class="content1">
+              <img src="img/toples.png" alt="Tas Selempang Pria" />
+            </div>
+            <div class="content1">
+              <img src="img/sepatu.png" alt="Tas Selempang Pria" />
+            </div>
+          </div>
         </div>
         <div class="hero2">
-            <h1>Top Up & Tagihan</h1>
+          <h1>Top Up & Tagihan</h1>
+          <div class="hero3">
             <div class="section2">
-                <h1>Pulsa</h1>
-                <h1>Paket Data</h1>
-                <h1>Listrik PLN</h1>
-                <h1>Roaming</h1>
+              <h1>Pulsa</h1>
+              <h1>Paket Data</h1>
+              <h1>Listrik PLN</h1>
+              <h1>Roaming</h1>
             </div>
-            <div>
+            <div class="telepon">
+              <div>
                 <p>Nomor Telepon</p>
-                <input type="text" placeholder="Masukkan nomor telepon" class="input1">
+                <input
+                  type="text"
+                  placeholder="Masukkan nomor telepon"
+                  class="input1"
+                />
+              </div>
+              <div>
+                <p>Nominal</p>
+                <input
+                  type="text"
+                  placeholder="Masukkan nominal"
+                  class="input1"
+                />
+              </div>
+              <div class="btn-beli">
+                <button>Beli</button>
+              </div>
             </div>
+          </div>
         </div>
-    </div>
+      </div>
 
-    <div class="product-section">
-        <h1>Berdasarkan pencarianmu <a href="#" class="lihat-semua">Lihat Semua</a></h1>
+      <div class="product-section">
+        <h1>
+          Berdasarkan pencarianmu
+          <a href="#" class="lihat-semua">Lihat Semua</a>
+        </h1>
         <div class="product-list">
-            <div class="product-item">
-                <img src="istockphoto-157318026-612x612.jpg" alt="Produk 1">
-                <p class="product-title">Kain Klasik Monokrom Motif Kawung Kombinasi Batik</p>
-                <p class="product-price">Rp165.000</p>
-                <p class="product-location">Kota Surabaya</p>
-                <p class="product-rating">⭐ 5.0 | 1 terjual</p>
-            </div>
-            <div class="product-item">
-                <img src="istockphoto-157318026-612x612.jpg" alt="Produk 2">
-                <p class="product-title">Bestseller Batik Couple Faiza Kebaya Modern Elegan</p>
-                <p class="product-price">Rp144.800 <span class="discount">Rp289.600 50%</span></p>
-                <p class="product-location">Kab. Bantul</p>
-                <p class="product-rating">⭐ 4.8 | 22 terjual</p>
-            </div>
-            <div class="product-item">
-                <img src="istockphoto-157318026-612x612.jpg" alt="Produk 2">
-                <p class="product-title">Bestseller Batik Couple Faiza Kebaya Modern Elegan</p>
-                <p class="product-price">Rp144.800 <span class="discount">Rp289.600 50%</span></p>
-                <p class="product-location">Kab. Bantul</p>
-                <p class="product-rating">⭐ 4.8 | 22 terjual</p>
-            </div>
-            <div class="product-item">
-                <img src="istockphoto-157318026-612x612.jpg" alt="Produk 2">
-                <p class="product-title">Bestseller Batik Couple Faiza Kebaya Modern Elegan</p>
-                <p class="product-price">Rp144.800 <span class="discount">Rp289.600 50%</span></p>
-                <p class="product-location">Kab. Bantul</p>
-                <p class="product-rating">⭐ 4.8 | 22 terjual</p>
-            </div>
-            <div class="product-item">
-                <img src="istockphoto-157318026-612x612.jpg" alt="Produk 2">
-                <p class="product-title">Bestseller Batik Couple Faiza Kebaya Modern Elegan</p>
-                <p class="product-price">Rp144.800 <span class="discount">Rp289.600 50%</span></p>
-                <p class="product-location">Kab. Bantul</p>
-                <p class="product-rating">⭐ 4.8 | 22 terjual</p>
-            </div>
-            
+          <div class="product-item">
+            <img
+              src="https://images.tokopedia.net/img/cache/300-square/o3syd0/1997/1/1/4ef34681e5c847f09855696d53b946da~.jpeg"
+              alt="Produk 1"
+            />
+            <p class="product-title">Baju Batik couple cocok untuk kucing</p>
+            <p class="product-price">Rp165.000</p>
+            <p class="product-location">Kota Surabaya</p>
+            <p class="product-rating">⭐ 5.0 | 1 terjual</p>
+          </div>
+          <div class="product-item">
+            <img
+              src="https://images.tokopedia.net/img/cache/300-square/o3syd0/1997/1/1/7ba860089d0345b9900fedfb675e2c59~.jpeg"
+              alt="Produk 2"
+            />
+            <p class="product-title">Baju Batik tidak berkualitas</p>
+            <p class="product-price">Rp144.800</p>
+            <span class="discount">Rp289.600</span>
+            <span class="persen">50%</span>
+            <p class="product-location">Kab. Bantul</p>
+            <p class="product-rating">⭐ 4.8 | 22 terjual</p>
+          </div>
+          <div class="product-item">
+            <img
+              src="https://images.tokopedia.net/img/cache/300-square/hDjmkQ/2022/11/9/524d150a-6f25-4dfb-a3d0-c247e4d1c244.jpg"
+              alt="Produk 2"
+            />
+            <p class="product-title">Kain penutup jenazah</p>
+            <p class="product-price">Rp144.800</p>
+            <span class="discount">Rp289.600</span>
+            <span class="persen">50%</span>
+            <p class="product-location">Kab. Bantul</p>
+            <p class="product-rating">⭐ 4.8 | 22 terjual</p>
+          </div>
+          <div class="product-item">
+            <img
+              src="https://images.tokopedia.net/img/cache/300-square/aphluv/1997/1/1/9f2462553cbd4719988cb490502c0c59~.jpeg"
+              alt="Produk 2"
+            />
+            <p class="product-title">Baju untuk cewek cantik</p>
+            <p class="product-price">Rp144.800</p>
+            <span class="discount">Rp289.600</span>
+            <span class="persen">50%</span>
+            <p class="product-location">Kab. Bantul</p>
+            <p class="product-rating">⭐ 4.8 | 22 terjual</p>
+          </div>
+          <div class="product-item">
+            <img
+              src="https://images.tokopedia.net/img/cache/300-square/VqbcmM/2021/11/10/ea51d698-360a-4c4f-8237-5c0b8c53a24c.jpg"
+              alt="Produk 2"
+            />
+            <p class="product-title">Kain Batik bahan</p>
+            <p class="product-price">Rp144.800</p>
+            <span class="discount">Rp289.600</span>
+            <span class="persen">50%</span>
+            <p class="product-location">Kab. Bantul</p>
+            <p class="product-rating">⭐ 4.8 | 22 terjual</p>
+          </div>
+          <div class="product-item">
+            <img
+              src="https://images.tokopedia.net/img/cache/300-square/VqbcmM/2022/1/18/dc816a33-cf0f-4b04-a85b-f8c49cad88e5.jpg"
+              alt="Produk 2"
+            />
+            <p class="product-title">Batik Kemeja Murah Meriah</p>
+            <p class="product-price">Rp144.800</p>
+            <span class="discount">Rp289.600</span>
+            <span class="persen">50%</span>
+            <p class="product-location">Kab. Bantul</p>
+            <p class="product-rating">⭐ 4.8 | 22 terjual</p>
+          </div>
         </div>
+      </div>
+      <div class="product-favorit">
+        <div class="list-product">
+          <a href="/" class="list-menu">Kesehatan</a>
+          <a href="/" class="list-menu">For You</a>
+          <a href="/" class="list-menu">Dekat Kamu</a>
+          <a href="/" class="list-menu">Mirip yang kamu cek</a>
+        </div>
+        <div class="product-list">
+          <div class="product-item">
+            <a
+              href="https://www.tokopedia.com/detvl-2/ready-siap-kirim-jam-tangan-pria-orient-bambino-ra-ac0019l-automatic-men-blue-dial-mes-1731340645996463921"
+            >
+              <img
+                src="https://images.tokopedia.net/img/cache/200-square/VqbcmM/2025/5/5/986236b2-0b46-47f3-b1e2-630262fe648b.jpg"
+                alt="Produk 2"
+              />
+              <p class="product-title">Jam Tangan bukan KW</p>
+              <p class="product-price">Rp144.800</p>
+              <span class="discount">Rp289.600</span>
+              <span class="persen">50%</span>
+              <p class="product-location">Kab. Bantul</p>
+              <p class="product-rating">⭐ 4.8 | 22 terjual</p>
+            </a>
+          </div>
+          <div class="product-item">
+            <img
+              src="https://images.tokopedia.net/img/cache/200-square/aphluv/1997/1/1/745ffe722f6c4cbe82e834f8dc8e80c3~.jpeg"
+              alt="Produk 2"
+            />
+            <p class="product-title">MamyPokoPants bukan untuk Dewasa</p>
+            <p class="product-price">Rp144.800</p>
+            <span class="discount">Rp289.600</span>
+            <span class="persen">50%</span>
+            <p class="product-location">Kab. Bantul</p>
+            <p class="product-rating">⭐ 4.8 | 22 terjual</p>
+          </div>
+          <div class="product-item">
+            <img
+              src="https://images.tokopedia.net/img/cache/200-square/aphluv/1997/1/1/b63b2a537cb14ff2867fff07cca922d2~.jpeg"
+              alt="Produk 2"
+            />
+            <p class="product-title">Face Wash sabun muka</p>
+            <p class="product-price">Rp144.800</p>
+            <span class="discount">Rp289.600</span>
+            <span class="persen">50%</span>
+            <p class="product-location">Kab. Bantul</p>
+            <p class="product-rating">⭐ 4.8 | 22 terjual</p>
+          </div>
+          <div class="product-item">
+            <img
+              src="https://images.tokopedia.net/img/cache/200-square/aphluv/1997/1/1/136ae09bda5043da83e3847b78a174a4~.jpeg"
+              alt="Produk 2"
+            />
+            <p class="product-title">Oil Baby Cocok Juga untuk Badan Apek</p>
+            <p class="product-price">Rp144.800</p>
+            <span class="discount">Rp289.600</span>
+            <span class="persen">50%</span>
+            <p class="product-location">Kab. Bantul</p>
+            <p class="product-rating">⭐ 4.8 | 22 terjual</p>
+          </div>
+          <div class="product-item">
+            <img
+              src="https://images.tokopedia.net/img/cache/200-square/aphluv/1997/1/1/0a97c06a8d8544e08b234a947eedc840~.jpeg"
+              alt="Produk 2"
+            />
+            <p class="product-title">TolakBalai dijamin Aman Sentosa</p>
+            <p class="product-price">Rp144.800</p>
+            <span class="discount">Rp289.600</span>
+            <span class="persen">50%</span>
+            <p class="product-location">Kab. Bantul</p>
+            <p class="product-rating">⭐ 4.8 | 22 terjual</p>
+          </div>
+          <div class="product-item">
+            <img
+              src="https://images.tokopedia.net/img/cache/200-square/aphluv/1997/1/1/8d8b91ca7aa247bf9b4bc319666f9e1e~.jpeg"
+              alt="Produk 2"
+            />
+            <p class="product-title">
+              Parfume eceran cocok untuk Kaum Missqueen
+            </p>
+            <p class="product-price">Rp144.800</p>
+            <span class="discount">Rp289.600</span>
+            <span class="persen">50%</span>
+            <p class="product-location">Kab. Bantul</p>
+            <p class="product-rating">⭐ 4.8 | 22 terjual</p>
+          </div>
+          <div class="product-item">
+            <img
+              src="https://images.tokopedia.net/img/cache/200-square/hDjmkQ/2025/5/4/050f64be-f7ae-4b98-b232-1b344ef5900d.jpg"
+              alt="Produk 2"
+            />
+            <p class="product-title">Sepatu Super sangat Bestseller</p>
+            <p class="product-price">Rp144.800</p>
+            <span class="discount">Rp289.600</span>
+            <span class="persen">50%</span>
+            <p class="product-location">Kab. Bantul</p>
+            <p class="product-rating">⭐ 4.8 | 22 terjual</p>
+          </div>
+          <div class="product-item">
+            <img
+              src="https://images.tokopedia.net/img/cache/200-square/VqbcmM/2022/2/28/49b68c8f-dada-4b61-b2d7-1bb6d9dde970.jpg"
+              alt="Produk 2"
+            />
+            <p class="product-title">Kipas Angin tapi Ga dingin</p>
+            <p class="product-price">Rp144.800</p>
+            <span class="discount">Rp289.600</span>
+            <span class="persen">50%</span>
+            <p class="product-location">Kab. Bantul</p>
+            <p class="product-rating">⭐ 4.8 | 22 terjual</p>
+          </div>
+          <div class="product-item">
+            <img
+              src="https://images.tokopedia.net/img/cache/200-square/VqbcmM/2025/4/10/8ec3c5e3-a90d-4151-804d-83624a7a808b.jpg"
+              alt="Produk 2"
+            />
+            <p class="product-title">Sisir Rambut</p>
+            <p class="product-price">Rp144.800</p>
+            <span class="discount">Rp289.600</span>
+            <span class="persen">50%</span>
+            <p class="product-location">Kab. Bantul</p>
+            <p class="product-rating">⭐ 4.8 | 22 terjual</p>
+          </div>
+          <div class="product-item">
+            <img
+              src="https://images.tokopedia.net/img/cache/200-square/VqbcmM/2024/12/25/e07bdcbd-84a1-41d6-a748-4157438e4e9e.png"
+              alt="Produk 2"
+            />
+            <p class="product-title">Toner HP 416A Original</p>
+            <p class="product-price">Rp144.800</p>
+            <span class="discount">Rp289.600</span>
+            <span class="persen">50%</span>
+            <p class="product-location">Kab. Bantul</p>
+            <p class="product-rating">⭐ 4.8 | 22 terjual</p>
+          </div>
+          <div class="product-item">
+            <img
+              src="https://images.tokopedia.net/img/cache/200-square/aphluv/1997/1/1/5aeaaac7051649d4a5ced6cbeb4e364f~.jpeg"
+              alt="Produk 2"
+            />
+            <p class="product-title">Mesin Potong Kumis Baplang</p>
+            <p class="product-price">Rp144.800</p>
+            <span class="discount">Rp289.600</span>
+            <span class="persen">50%</span>
+            <p class="product-location">Kab. Bantul</p>
+            <p class="product-rating">⭐ 4.8 | 22 terjual</p>
+          </div>
+          <div class="product-item">
+            <img
+              src="https://images.tokopedia.net/img/cache/200-square/VqbcmM/2025/3/12/21c6a610-484f-48e2-8d3a-3ab864736f4e.png"
+              alt="Produk 2"
+            />
+            <p class="product-title">Hotto Purto Sarapan Orang Kaya</p>
+            <p class="product-price">Rp144.800</p>
+            <span class="discount">Rp289.600</span>
+            <span class="persen">50%</span>
+            <p class="product-location">Kab. Bantul</p>
+            <p class="product-rating">⭐ 4.8 | 22 terjual</p>
+          </div>
+        </div>
+      </div>
     </div>
+    <div class="footer-section">
+        <h1>Cari Semua di Tokolupadia!</h1>
+        <div class="footer-tabs">
+          <div class="footer-tab active">Promo</div>
+          <div class="footer-tab">Tiket Pesawat</div>
+          <div class="footer-tab">Tiket Kereta</div>
+          <div class="footer-tab">Hotel</div>
+          <div class="footer-tab">Kartu Prakerja</div>
+          <div class="footer-tab">Food & Voucher</div>
+          <div class="footer-tab">Produk Digital</div>
+          <div class="footer-tab">Fintech</div>
+          <div class="footer-tab">Tokolupadia Salam</div>
+        </div>
+        <div class="footer-content">
+          <div>
+            <p>Bebas Ongkir</p>
+            <p>Flash Sale</p>
+            <p>Tap Tap Kotak</p>
+            <p>Semasa</p>
+            <p>Serbu Official Store</p>
+          </div>
+          <div>
+            <p>Waktu Indonesia Belanja</p>
+            <p>Promo Pengguna Baru</p>
+            <p>Tokolupadia Peduli Sehat</p>
+            <p>Kolaborasi Anak Bangsa</p>
+            <p>Tokolupadia Parents</p>
+          </div>
+          <div>
+            <p>Waktu Indonesia Belanja TV Show</p>
+            <p>Tokolupadia Nyam</p>
+            <p>Home Living Salebration</p>
+            <p>Tokolupadia B2B Digital</p>
+            <p>Cantik Fest</p>
+          </div>
+          <div>
+            <p>Kejar Diskon</p>
+            <p>Bangga Buatan Indonesia</p>
+            <p>Super Gadget Day</p>
+            <p>Mitra Tokolupadia</p>
+            <p>GOPAY COINS</p>
+          </div>
+        </div>
+      </div>
+      <div class="seo-section">
+        <div class="seo-left">
+          <h2>Punya Toko Online? Buka cabangnya di Tokolupadia</h2>
+          <p>
+            Mudah, nyaman dan bebas Biaya Layanan Transaksi.
+            <b style="color: #374151">GRATIS!</b>
+          </p>
+          <div class="seo-actions">
+            <a href="#" class="seo-btn">Buka Toko GRATIS</a>
+            <a href="#" class="seo-link">Pelajari lebih lanjut</a>
+          </div>
+        </div>
+        <div class="seo-right">
+          <img src="img/footerimg.jpeg" alt="Buka Toko Tokolupadia" />
+        </div>
+      </div>
+      <div class="seo-bottom">
+        <h2>Nikmati Mudahnya Jualan Online di Tokolupadia</h2>
+        <p>
+          Tokolupadia merupakan salah satu situs jual beli online di Indonesia
+          yang perkembangannya terhitung cepat dan memiliki tujuan untuk
+          memudahkan setiap masyarakat di Indonesia, agar dapat melakukan aneka
+          transaksi jual beli secara online. Selain kamu dapat menikmati proses
+          pembelian aneka produk lebih mudah dan efisien, kamu para seller juga
+          dapat melakukan <b>jualan online</b> di Tokolupadia. Kamu bisa
+          bergabung dengan komunitas khusus Tokolupadia Seller bagi kamu yang
+          ingin memulai bisnis dan jualan online atau ingin memperluas bisnis
+          yang sedang kamu jalankan. Proses pendaftaran untuk menjadi
+          Tokolupadia Seller juga sangat mudah cukup dengan memasukkan data
+          diri, nama toko, alamat toko setelah itu kamu akan langsung terdaftar
+          sebagai Tokolupadia Seller. Kamu juga dapat melakukan upgrade akun
+          toko kamu menjadi Power Merchant untuk menjangkau pelanggan
+          Tokolupadia yang lebih luas lagi, sehingga bisnis online kamu semakin
+          laris. Keuntungan Power Merchant adalah kamu dapat memberikan fitur
+          Bebas Ongkir sehingga dapat menarik lebih banyak lagi pelanggan, lalu
+          kamu dapat menikmati fitur TopAds yang dapat menjangkau masyarakat
+          pengguna Tokolupadia lebih banyak lagi dengan modal yang sangat minim
+          mulai dari Rp 25 ribuan, hingga toko kamu akan tampil lebih menarik
+          lagi serta dapat meningkatkan kepercayaan pembeli. Ayo mulai jualan
+          online di Tokolupadia dan mulai kembangkan usahamu secara online
+          bersama Tokolupadia.
+        </p>
+        <p>
+          Tokolupadia merupakan salah satu e-commerce di Indonesia yang
+          menawarkan berbagai macam produk dan menjadikannya sebagai marketplace
+          pilihan bagi banyak masyarakat Indonesia. Tidak hanya itu, kehadiran
+          Tokolupadia membuat pengalaman belanja online para penggunanya menjadi
+          lebih mudah, aman, dan efisien. Tersedia berbagai fitur dan metode
+          pembayaran yang dapat Anda pilih, untuk memastikan kegiatan belanja
+          Anda dapat dilakukan senyaman mungkin. Baik itu melalui transfer bank
+          yang bisa dilakukan menggunakan rekening dari berbagai bank yang
+          tersedia, uang elektronik seperti OVO, hingga cicilan. Sistem
+          berbelanja di Tokolupadia terintegrasi pula dengan sistem beberapa
+          jasa ekspedisi. Kerjasama yang dijalin ini memungkinkan Tokolupadia
+          untuk memberikan penawaran pengiriman gratis, dan memungkinkan
+          pengguna yang berbelanja untuk terus melacak status pengiriman produk
+          yang mereka beli. Jadi, produk apapun yang dibeli di Tokolupadia baik
+          itu pakaian bayi, aksesoris mobil, aksesoris kamera, celana, jam,
+          hingga peralatan elektronik seperti kabel dan peralatan gaming, atau
+          makanan sekali pun dapat terus Anda lacak keberadaannya untuk
+          memastikan akan sampai dengan aman. Data pribadi dan seluruh transaksi
+          yang sudah maupun yang akan Anda lakukan di Tokolupadia dilindungi
+          oleh kebijakan privasi Tokolupadia, sehingga tak perlu khawatir data
+          Anda akan jatuh ke pihak yang tidak bertanggungjawab dan/atau
+          disalahgunakan. Karena faktor-faktor tersebut lah, Tokolupadia menjadi
+          solusi untuk belanja online dengan mudah dan aman.
+        </p>
+      </div>
     </div>
-</body>
+    <footer
+      style="
+        border-top: 1px solid #ccc;
+        padding: 30px 20px;
+        font-size: 14px;
+        color: #333;
+        margin-right: 120px;
+        margin-left: 120px;
+      "
+    >
+      <div
+        style="display: flex; flex-wrap: wrap; justify-content: space-between"
+      >
+        <!-- Navigasi -->
+        <div style="flex: 1; min-width: 200px; margin-right: 20px">
+          <h3><b>Tokolupadia</b></h3>
+          <p>Tentang Tokopedia</p>
+          <p>Hak Kekayaan Intelektual</p>
+          <p>Karir</p>
+          <p>Blog</p>
+          <p>Tokopedia Affiliate Program</p>
+          <p>Tokopedia B2B Digital</p>
+          <p>Tokopedia Marketing Solutions</p>
+          <p>Kalkulator Indeks Masa Tubuh</p>
+          <p>Tokopedia Farma</p>
+          <p>Promo Hari Ini</p>
+          <p>Beli Lokal</p>
+          <p>Promo Guncang</p>
+        </div>
+
+        <!-- Beli & Jual -->
+        <div style="flex: 1; min-width: 200px; margin-right: 20px">
+          <h3><b>Beli</b></h3>
+          <p>Tagihan & Top Up</p>
+          <p>Tokopedia COD</p>
+          <p>Bebas Ongkir</p>
+          <h3><b>Jual</b></h3>
+          <p>Pusat Edukasi Seller</p>
+          <p>Daftar Mall</p>
+        </div>
+
+        <!-- Bantuan -->
+        <div style="flex: 1; min-width: 200px; margin-right: 20px">
+          <h3><b>Bantuan</b></h3>
+          <p>Tokopedia Care</p>
+          <p>Syarat dan Ketentuan</p>
+          <p>Kebijakan Privasi</p>
+        </div>
+
+        <!-- Keamanan & Media Sosial -->
+        <div style="flex: 1; min-width: 200px; margin-right: 20px">
+          <h3><b>Keamanan & Privasi</b></h3>
+          <img
+            src="https://dummyimage.com/100x50/ccc/000&text=PCI+DSS"
+            alt="PCI DSS"
+            style="margin-bottom: 10px"
+          />
+          <br />
+          <img
+            src="https://dummyimage.com/100x50/ccc/000&text=ISO+27001"
+            alt="ISO 27001"
+            style="margin-bottom: 10px"
+          /><br />
+          <img
+            src="https://dummyimage.com/100x50/ccc/000&text=ISO+27701"
+            alt="ISO 27701"
+          /><br /><br />
+          <strong>Ikuti Kami</strong><br />
+          <a href="#"
+            ><img
+              src="https://cdn-icons-png.flaticon.com/512/733/733547.png"
+              width="24"
+          /></a>
+          <a href="#"
+            ><img
+              src="https://cdn-icons-png.flaticon.com/512/733/733579.png"
+              width="24"
+          /></a>
+          <a href="#"
+            ><img
+              src="https://cdn-icons-png.flaticon.com/512/733/733558.png"
+              width="24"
+          /></a>
+          <a href="#"><img src="img/pi.png" width="24" /></a>
+        </div>
+
+        <!-- Aplikasi -->
+        <div style="flex: 1; min-width: 250px">
+          <h3><b>Nikmatin keuntungan spesial di aplikasi:</b></h3>
+          <p>💲 Diskon 70%* hanya di aplikasi</p>
+          <p>🎁 Promo khusus aplikasi</p>
+          <p>🚚 Gratis Ongkir tiap hari</p>
+          <p>Buka aplikasi dengan scan QR atau klik tombol:</p>
+          <img
+            src="img/qrcode.jpeg"
+            alt="QR Code"
+            style="width: 100px; height: 100px"
+          /><br /><br />
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Google_Play_Store_badge_EN.svg/512px-Google_Play_Store_badge_EN.svg.png"
+            style="height: 40px"
+          /><br />
+          <img
+            src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg"
+            style="height: 40px"
+          /><br />
+          <!-- <img src="https://upload.wikimedia.org/wikipedia/commons/7/79/AppGallery_badge_EN.svg" style="height: 40px;"> -->
+        </div>
+      </div>
+
+      <!-- Footer Bottom -->
+      <div
+        style="
+          border-top: 1px solid #ccc;
+          margin-top: 20px;
+          padding-top: 15px;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+        "
+      >
+        <p>© 2009 - 2025, PT. Tokolupadia. All Rights Reserved.</p>
+        <div>
+          <button
+            style="
+              padding: 4px;
+              text-align: center;
+              background-color: #00aa5b;
+              color: white;
+              border: none;
+              border-radius: 5px;
+            "
+          >
+            Indonesia
+          </button>
+          <button
+            style="
+              padding: 5px 10px;
+              background-color: #e0e0e0;
+              border: none;
+              border-radius: 5px;
+            "
+          >
+            English
+          </button>
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>
